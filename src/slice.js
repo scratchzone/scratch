@@ -1,9 +1,8 @@
 class Slice {
-    
-    _toppings = [];
-    _isButtered = false;
-    
+        
     constructor(){
+        this._toppings = [];
+        this._isButtered = false;
         this.heat = 0;
     }
     

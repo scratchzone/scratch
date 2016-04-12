@@ -1,7 +1,10 @@
 class Toaster {
-  _bread = [];
 
-  addBread(slice) {
+  constructor(){
+      this._bread = [];
+  }
+
+  addBread(slice){
 	if(this._bread.length>4){
 		return;
 	}
